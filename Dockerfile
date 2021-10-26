@@ -40,7 +40,7 @@ ENV FG_START_MODE "0"
 ENV CHOWN_DIRS "/app,/steamcmd"
 
 # Expose the volumes
-VOLUME [ "/steamcmd/fg" ]
+VOLUME [ "/steamcmd/fg", "/app/.config/Epic" ]
 
 # Start the server
 CMD [ "bash", "/app/start.sh" ]
