@@ -1,0 +1,5 @@
+@sSteamCmdForcePlatformType linux
+login anonymous
+force_install_dir /steamcmd/fg
+app_update 1690800 validate
+quit
