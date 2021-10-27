@@ -21,5 +21,5 @@ services:
 ## Docker Run Example
 
 ```bash
-docker run -p 15777:15777/udp -p 15000:15000/udp -p 7777:7777/udp -v $(pwd)/server:/steamcmd/fg $(pwd)/data:/app/.config/Epic -d ghcr.io/vilsol/satisfactory-docker:latest
+docker run -p 15777:15777/udp -p 15000:15000/udp -p 7777:7777/udp -v $(pwd)/server:/steamcmd/fg -v $(pwd)/data:/app/.config/Epic -d ghcr.io/vilsol/satisfactory-docker:latest
 ```
